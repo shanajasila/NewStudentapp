@@ -7,6 +7,7 @@ import { AddStudentComponent } from './add-student/add-student.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 import { ViewStudentComponent } from './view-student/view-student.component';
+import { SearchComponent } from './search/search.component';
 
 const myRoute : Routes =[
   {
@@ -19,7 +20,8 @@ const myRoute : Routes =[
   declarations: [
     AppComponent,
     AddStudentComponent,
-    ViewStudentComponent
+    ViewStudentComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
