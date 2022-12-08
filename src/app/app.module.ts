@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AddStudentComponent } from './add-student/add-student.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
+import { ViewStudentComponent } from './view-student/view-student.component';
 
 const myRoute : Routes =[
   {
@@ -17,7 +18,8 @@ const myRoute : Routes =[
 @NgModule({
   declarations: [
     AppComponent,
-    AddStudentComponent
+    AddStudentComponent,
+    ViewStudentComponent
   ],
   imports: [
     BrowserModule,
